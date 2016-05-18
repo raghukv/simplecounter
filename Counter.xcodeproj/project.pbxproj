@@ -14,6 +14,10 @@
 		5D2C057F1A3E39BF002C8F1A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D2C057E1A3E39BF002C8F1A /* Images.xcassets */; };
 		5D2C05821A3E39BF002C8F1A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D2C05801A3E39BF002C8F1A /* LaunchScreen.xib */; };
 		5D2C058E1A3E39BF002C8F1A /* CounterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2C058D1A3E39BF002C8F1A /* CounterTests.swift */; };
+		5D3CFD021AFC43560024EAA4 /* CounterCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D3CFD011AFC43560024EAA4 /* CounterCell.xib */; };
+		5D3CFD061B0008240024EAA4 /* CounterBean.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3CFD051B0008240024EAA4 /* CounterBean.swift */; };
+		5D87789F1A4F90A400B0ACFC /* Counter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D87789E1A4F90A400B0ACFC /* Counter.swift */; };
+		5DB63B831B09883000B69C14 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DB63B821B09883000B69C14 /* Storyboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,11 +37,15 @@
 		5D2C05771A3E39BF002C8F1A /* Counter.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Counter.xcdatamodel; sourceTree = "<group>"; };
 		5D2C05791A3E39BF002C8F1A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5D2C057C1A3E39BF002C8F1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5D2C057E1A3E39BF002C8F1A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5D2C057E1A3E39BF002C8F1A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Counter/Images.xcassets; sourceTree = "<group>"; };
 		5D2C05811A3E39BF002C8F1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		5D2C05871A3E39BF002C8F1A /* CounterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CounterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D2C058C1A3E39BF002C8F1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5D2C058D1A3E39BF002C8F1A /* CounterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterTests.swift; sourceTree = "<group>"; };
+		5D3CFD011AFC43560024EAA4 /* CounterCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CounterCell.xib; sourceTree = "<group>"; };
+		5D3CFD051B0008240024EAA4 /* CounterBean.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CounterBean.swift; sourceTree = "<group>"; };
+		5D87789E1A4F90A400B0ACFC /* Counter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Counter.swift; sourceTree = "<group>"; };
+		5DB63B821B09883000B69C14 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +72,7 @@
 				5D2C05711A3E39BE002C8F1A /* Counter */,
 				5D2C058A1A3E39BF002C8F1A /* CounterTests */,
 				5D2C05701A3E39BE002C8F1A /* Products */,
+				5D2C057E1A3E39BF002C8F1A /* Images.xcassets */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,10 +88,13 @@
 		5D2C05711A3E39BE002C8F1A /* Counter */ = {
 			isa = PBXGroup;
 			children = (
+				5DB63B821B09883000B69C14 /* Storyboard.storyboard */,
 				5D2C05741A3E39BF002C8F1A /* AppDelegate.swift */,
 				5D2C05791A3E39BF002C8F1A /* ViewController.swift */,
 				5D2C057B1A3E39BF002C8F1A /* Main.storyboard */,
-				5D2C057E1A3E39BF002C8F1A /* Images.xcassets */,
+				5D3CFD011AFC43560024EAA4 /* CounterCell.xib */,
+				5D87789E1A4F90A400B0ACFC /* Counter.swift */,
+				5D3CFD051B0008240024EAA4 /* CounterBean.swift */,
 				5D2C05801A3E39BF002C8F1A /* LaunchScreen.xib */,
 				5D2C05761A3E39BF002C8F1A /* Counter.xcdatamodeld */,
 				5D2C05721A3E39BE002C8F1A /* Supporting Files */,
@@ -159,6 +171,8 @@
 		5D2C05671A3E39BE002C8F1A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = RaghuKV;
 				TargetAttributes = {
@@ -195,9 +209,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D3CFD021AFC43560024EAA4 /* CounterCell.xib in Resources */,
 				5D2C057D1A3E39BF002C8F1A /* Main.storyboard in Resources */,
 				5D2C05821A3E39BF002C8F1A /* LaunchScreen.xib in Resources */,
 				5D2C057F1A3E39BF002C8F1A /* Images.xcassets in Resources */,
+				5DB63B831B09883000B69C14 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,6 +231,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D87789F1A4F90A400B0ACFC /* Counter.swift in Sources */,
+				5D3CFD061B0008240024EAA4 /* CounterBean.swift in Sources */,
 				5D2C057A1A3E39BF002C8F1A /* ViewController.swift in Sources */,
 				5D2C05781A3E39BF002C8F1A /* Counter.xcdatamodeld in Sources */,
 				5D2C05751A3E39BF002C8F1A /* AppDelegate.swift in Sources */,
@@ -343,6 +361,7 @@
 				INFOPLIST_FILE = Counter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -353,6 +372,7 @@
 				INFOPLIST_FILE = Counter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -409,6 +429,7 @@
 				5D2C05931A3E39BF002C8F1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5D2C05941A3E39BF002C8F1A /* Build configuration list for PBXNativeTarget "CounterTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +438,7 @@
 				5D2C05961A3E39BF002C8F1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
